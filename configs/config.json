@@ -1,0 +1,61 @@
+{
+
+  "model": {
+
+
+    "name": "ResNet18",
+
+    "pretrained": 1,
+
+    "initialization": "random",
+
+    "process": "GPU"
+
+
+  },
+
+  "training": {
+
+
+    "num_epoch": 100,
+
+    "batch_size": 64
+
+  },
+
+  "optimizer": {
+
+
+    "name": "SGD",
+
+    "learning_rate": 0.01,
+
+    "decay": 1,
+
+    "decay_by": 0.5,
+
+    "decay_tolerance": 0.02,
+
+    "min_epoch": 8,
+
+    "wait": 3,
+
+    "momentum": 0.8,
+
+    "nesterov": 1
+
+
+  },
+
+  "data": {
+
+
+    "num_classes": 180,
+
+    "validation_split": 0.3,
+
+    "augment": 1
+
+
+  }
+}

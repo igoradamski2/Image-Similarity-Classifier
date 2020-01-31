@@ -1,0 +1,61 @@
+{
+
+  "model": {
+
+
+    "name": "simpleSimilarity0L",
+
+    "hidden_size": 512,
+
+    "initialization": "random",
+
+    "process": "GPU"
+
+
+  },
+
+  "training": {
+
+
+    "num_epoch": 50,
+
+    "batch_size": 64
+
+  },
+
+  "optimizer": {
+
+
+    "name": "SGD",
+
+    "learning_rate": 0.01,
+
+    "decay": 1,
+
+    "decay_by": 0.5,
+
+    "decay_tolerance": 0.02,
+
+    "min_epoch": 8,
+
+    "wait": 3,
+
+    "momentum": 0.8,
+
+    "nesterov": 1
+
+
+  },
+
+  "data": {
+
+
+    "validation_split": 0.3,
+
+    "augment": 0,
+
+    "precompute_embeddings": 0
+
+
+  }
+}
