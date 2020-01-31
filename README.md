@@ -56,7 +56,7 @@ python evaluate_model.py -c folder_with_classification_model -s folder_with_simi
 ```
 and not supplying the -s parameter will evaluate the classification model only.
 
-More details of the actual implementation can be extracted from the paper-like summary (mini_project2.pdf)[mini_project2.pdf]. 
+More details of the actual implementation can be extracted from the paper-like summary [mini_project2](mini_project2.pdf). 
 
 
 
