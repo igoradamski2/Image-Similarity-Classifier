@@ -17,7 +17,7 @@ unzip tiny-imagenet-200.zip
 Since the validation (val) folder in the tiny-imagenet-200 has a different structure, in order for the code to work properly we need to restructure it to the structure given above:
 ```{bash}
 chmod u+x bash/restructure.sh
-./restructure.sh
+./bash/restructure.sh
 ```
 
 ## Training
